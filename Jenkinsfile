@@ -12,21 +12,16 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-        
-            steps {
-              
-                echo 'Checking out'
-              
-            }
-
-        }
-
         stage('Test') {
 
             steps {
 
                 echo 'Testing...'
+                sh 'ls'
+                sh 'ls /var/jenkins_home/workspace/test'
+                sh 'docker ps'
+                sh 'docker images'
+                sh 'ps'
 
             }
 
