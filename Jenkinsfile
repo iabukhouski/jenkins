@@ -46,7 +46,7 @@ pipeline {
 
             steps {
 
-                archiveArtifacts artifacts: 'index.html',
+                archiveArtifacts artifacts: 'index.html'
 
             }
 
