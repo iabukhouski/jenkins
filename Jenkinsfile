@@ -47,7 +47,7 @@ pipeline {
 
             steps {
 
-                archiveArtifacts 'index.html'
+                unarchive mapping: ["index.html": 'index.html']
 
             }
 
