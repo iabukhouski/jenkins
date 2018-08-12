@@ -46,12 +46,11 @@ pipeline {
 
             steps {
 
-                withAWS(credentials:'b44446e2-505b-47aa-a6a7-c560c5f812c1') {
+                withAWS(credentials: 'b44446e2-505b-47aa-a6a7-c560c5f812c1') {
 
-                    s3Upload(file: 'index.html', bucket: 'iabukhouski', path: 'index.html')
+                    s3Upload(file: 'build/', bucket: 'iabukhouski', path: '/')
 
                 }
-
 
             }
 
