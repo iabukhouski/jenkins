@@ -46,7 +46,7 @@ pipeline {
 
             steps {
 
-                archiveArtifacts artifacts: 'index.html'
+                s3Upload(file: 'index.html', bucket: 'iabukhouski', path: 'index.html')
 
             }
 
