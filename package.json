@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Testing...\"",
-    "lint": "exit 1",
+    "lint": "echo \"Linting...\"",
     "build": "echo \"Building...\""
   },
   "repository": {
