@@ -46,7 +46,12 @@ pipeline {
 
             steps {
 
-                s3Upload(file: 'index.html', bucket: 'iabukhouski', path: 'index.html')
+                withAWS(credentials:'AKIAI2W4QIJHZV6YRQUA') {
+
+                    s3Upload(file: 'index.html', bucket: 'iabukhouski', path: 'index.html')
+
+                }
+
 
             }
 
