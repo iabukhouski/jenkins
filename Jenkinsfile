@@ -16,9 +16,6 @@ pipeline {
 
             steps {
 
-                echo 'Testing...'
-                sh 'node -v'
-                sh 'npm -v'
                 sh 'npm test'
 
             }
@@ -29,7 +26,7 @@ pipeline {
 
             steps {
 
-                echo 'Linting...'
+                sh 'npm run lint'
 
             }
 
@@ -39,7 +36,7 @@ pipeline {
 
             steps {
 
-                echo 'Building...'
+                sh 'npm run build'
 
             }
 
@@ -49,7 +46,7 @@ pipeline {
 
             steps {
 
-                echo 'Deploying...'
+                echo 'NOT IMPLEMENTED YET'
 
             }
 
