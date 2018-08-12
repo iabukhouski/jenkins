@@ -17,11 +17,9 @@ pipeline {
             steps {
 
                 echo 'Testing...'
-                sh 'ls'
-                sh 'ls /var/jenkins_home/workspace/test'
-                sh 'docker ps'
-                sh 'docker images'
-                sh 'ps'
+                sh 'node -v'
+                sh 'npm -v'
+                sh 'npm test'
 
             }
 

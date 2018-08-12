@@ -1,0 +1,21 @@
+{
+  "name": "jenkins",
+  "version": "1.0.0",
+  "description": "Test CI/CD configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Testing...\"",
+    "lint": "echo \"Linting...\"",
+    "build": "echo \"Building...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iabukhouski/jenkins.git"
+  },
+  "author": "Ihar Abukhouski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iabukhouski/jenkins/issues"
+  },
+  "homepage": "https://github.com/iabukhouski/jenkins#readme"
+}
