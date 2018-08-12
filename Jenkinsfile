@@ -49,7 +49,7 @@ pipeline {
 
                 archiveArtifacts {
 
-                    artifacts: 'index.html'
+                    artifacts 'index.html'
                     
                 }
 
