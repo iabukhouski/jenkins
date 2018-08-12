@@ -17,6 +17,7 @@ pipeline {
             steps {
 
                 sh 'npm test'
+                
 
             }
 
@@ -46,7 +47,7 @@ pipeline {
 
             steps {
 
-                echo 'NOT IMPLEMENTED YET'
+                archiveArtifacts 'index.html'
 
             }
 
